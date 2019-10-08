@@ -33,6 +33,3 @@ app.post('/professores', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Servidor online na porta 3000'));
-
-// GET /alunos -> Retorna uma lista de alunos
-// POST /aluno ->
