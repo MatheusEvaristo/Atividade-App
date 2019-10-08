@@ -15,7 +15,7 @@ app.get('/alunos', (req, res) => {
 
 app.get('/alunos/:id', (req, res) => {
     const idAluno = req.params.id;
-    res.json(bd.getAlunoPorId());
+    res.json(bd.getAlunoPorId(idAluno));
 });
 
 app.post('/alunos', (req, res) => {
