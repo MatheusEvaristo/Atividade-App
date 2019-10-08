@@ -1,7 +1,7 @@
 class BancoDeDados {
     constructor() {
-        this.alunos = ["Evaristo","Anderson"];
-        this.professores = ["Jesiel","Heleonardo"];
+        this.alunos = [];
+        this.professores = [];
     }
 
     get() {
