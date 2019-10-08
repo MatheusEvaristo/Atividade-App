@@ -11,12 +11,17 @@ class BancoDeDados {
      getAlunosPorId (id) {
         
     }
+    
     addAluno (aluno) {
         this.alunos.push(aluno);
     }
 
     getProfessores () {
         return this.professores;
+    }
+    
+    getProfessoresPorId (id) {
+        
     }
 
     addProfessores (professor) {
