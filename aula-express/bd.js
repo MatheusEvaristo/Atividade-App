@@ -11,7 +11,6 @@ class BancoDeDados {
      getAlunosPorId (id) {
         
     }
-    
     addAluno (aluno) {
         this.alunos.push(aluno);
     }
@@ -19,11 +18,9 @@ class BancoDeDados {
     getProfessores () {
         return this.professores;
     }
-    
     getProfessoresPorId (id) {
         
     }
-
     addProfessores (professor) {
         this.professores.push(professor);
     }
