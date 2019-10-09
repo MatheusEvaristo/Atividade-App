@@ -26,12 +26,10 @@ app.post('/alunos', (req, res) => {
 app.get('/professores', (req, res) => {
     res.json(bd.getProfessores());
 });
-
 app.get('/professores/:id', (req, res) => {
     const idProfessor = req.params.id;
     res.json(bd.getProfessorPorId(idProfessor));
 });
-
 app.post('/professores', (req, res) => {
     bd.addProfessor(req.body);
     res.send('Professor adicionado com sucesso!');
