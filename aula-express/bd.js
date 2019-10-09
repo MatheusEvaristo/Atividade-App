@@ -8,8 +8,8 @@ class BancoDeDados {
         return this.alunos;
     }
 
-     getAlunosPorId (id) {
-        
+     getAlunoPorId (id) {
+        return this.alunos.filter((aluno) => aluno.id == id);
     }
     addAluno (aluno) {
         this.alunos.push(aluno);
@@ -18,10 +18,10 @@ class BancoDeDados {
     getProfessores () {
         return this.professores;
     }
-    getProfessoresPorId (id) {
+     getProfessoresPorId (id) {
         
     }
-    addProfessores (professor) {
+    addProfessor (professor) {
         this.professores.push(professor);
     }
 }
